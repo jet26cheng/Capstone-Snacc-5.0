@@ -1,0 +1,191 @@
+.nav-bar-wrapper {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    border-bottom: rgb(206, 206, 206) 1px solid;
+    height: 90px;
+    z-index: 99999999;
+}
+
+.inner-nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+
+.home-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.snacc-logo {
+    width: 70px;
+}
+
+#snacc-text {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.home-wrapper:link {
+    text-decoration: none;
+}
+
+
+.home-wrapper:visited {
+    text-decoration: none;
+}
+
+
+.home-wrapper:hover {
+    text-decoration: none;
+}
+
+
+.home-wrapper:active {
+    text-decoration: none;
+}
+
+.right-nav-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.right-nav-wrapper2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+
+
+.cart-avatar {
+    height: 25px;
+    width: 100%;
+}
+
+#cart-avatar {
+    display: flex;
+    align-items: center;
+}
+
+#logout {
+    border: none;
+    background-color: #FF5A5F;
+    height: 40px;
+    width: 100px;
+    border-radius: 9999px;
+    transition: 1s;
+    color: white;
+    font-weight: bold;
+}
+
+#logout:hover {
+    cursor: pointer;
+    background-color: #ff3a40;
+}
+
+.user-avatar {
+    height: 30px;
+    width: 100%;
+
+}
+
+#user-avatar {
+    display: flex;
+    align-items: center;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FF5A5F;
+    height: 40px;
+    width: 120px;
+    border-radius: 9999px;
+    transition: 1s;
+    color: white;
+    font-weight: bold;
+}
+
+#login2 {
+    color: white;
+}
+
+#login:hover {
+    cursor: pointer;
+    background-color: #ff3a40;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #FF5A5F;
+    height: 40px;
+    width: 120px;
+    border-radius: 9999px;
+    transition: 1s;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+#signup2 {
+    color: white;
+    font-weight: bold;
+}
+
+#signup:hover {
+    cursor: pointer;
+    background-color: #ff3a40;
+}
+
+#login2:link {
+    text-decoration: none;
+}
+
+
+#login2:visited {
+    text-decoration: none;
+}
+
+
+#login2:hover {
+    text-decoration: none;
+}
+
+
+#login2:active {
+    text-decoration: none;
+}
+
+#signup2:link {
+    text-decoration: none;
+}
+
+
+#signup2:visited {
+    text-decoration: none;
+}
+
+
+#signup2:hover {
+    text-decoration: none;
+}
+
+
+#signup2:active {
+    text-decoration: none;
+}

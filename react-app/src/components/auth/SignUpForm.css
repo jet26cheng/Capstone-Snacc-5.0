@@ -1,0 +1,33 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    align-items: center;
+}
+
+.sign-up-input {
+    width: 400px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#signupsubmit {
+    color: white;
+    font-weight: bold;
+    background: #ff5a5f;
+    border: none;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.input-grouper {
+    margin-bottom: 20px;
+}
+
+
+.snacc-rice {
+    width: 270px;
+}

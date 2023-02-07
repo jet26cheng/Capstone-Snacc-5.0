@@ -1,0 +1,35 @@
+.footer-space {
+    width: 100vw;
+    height: 260px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    border-top: rgb(206, 206, 206) 1px solid;
+    height: 30px;
+}
+
+.footer-inner-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-ico1 {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.footer-ico2 {
+    height: 17.5px;
+    margin-right: 5px;
+}
+
+.footer-ico3 {
+    height: 20px;
+    margin-right: 5px;
+}

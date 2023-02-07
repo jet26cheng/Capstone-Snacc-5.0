@@ -1,0 +1,11 @@
+.bannerImage {
+
+    width: 100%;
+}
+
+.product-group-title {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    color: darkred;
+}

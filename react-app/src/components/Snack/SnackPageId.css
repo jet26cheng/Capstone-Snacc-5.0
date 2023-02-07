@@ -1,0 +1,72 @@
+.snack-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.price-title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.description-title {
+    font-size: 18px;
+}
+
+#snackpage-img {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width:450px;
+    height:450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.snack-page-container {
+    display: flex;
+    justify-content: center;
+}
+
+.snackpageId-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.whitespace{
+    height: 100px;
+    width: 100vw;
+}
+
+.snack-details-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 450px;
+    margin-left: 50px;
+}
+
+.add-cart-wrapper {
+    display: flex;
+    height: 450px;
+}
+
+#add-cart-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    background: #ff5a5f;
+    border: none;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 1s;
+    margin-top: 20px;
+}
+
+#add-cart-button:hover {
+    cursor: pointer;
+    background-color: #ff3a40;
+}
